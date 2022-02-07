@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Audio_Recorder</string>
+    <string name="delete_button_CD">Delete Button</string>
+</resources>
