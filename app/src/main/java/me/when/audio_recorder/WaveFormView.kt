@@ -21,7 +21,8 @@ class WaveFormView(context: Context?, attrs: AttributeSet?) : View(context, attr
 
 
     init {
-        paint.color = Color.rgb(81,244,30)
+        //paint color set to navy blue
+        paint.color = Color.parseColor("#0D47A1")
         sw = resources.displayMetrics.widthPixels.toFloat()
         maxSpikes = (sw/(w+d)).toInt()
     }
