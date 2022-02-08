@@ -19,7 +19,6 @@ class WaveFormView(context: Context?, attrs: AttributeSet?) : View(context, attr
     private  var sh = 400f
     private  var maxSpikes = 0
 
-
     init {
         //paint color set to navy blue
         paint.color = Color.parseColor("#0D47A1")
